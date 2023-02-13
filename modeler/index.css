@@ -1,0 +1,138 @@
+
+body {
+    padding: $base-spacing-unit;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  }
+  
+  .pagetitle {
+    padding-top: 1%;
+    text-align: center;    
+  }
+  .paragraph {
+    padding: 10%;
+    text-align: center;   
+  }
+  .container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+  }
+  .table_entry{
+    text-align: center;
+  }
+  .table_off{
+    text-align: left;
+    color:green;
+    display:none;
+  }
+  .table {
+    width: 100%;
+    border: 0px none;
+  }
+  
+  .table-header {
+    display: flex;
+    width: 120px;
+    background: #000;
+    padding: ($half-spacing-unit * 1.5) 0;
+    color: #FFFFFF;
+     border: 0px none;
+  }
+  
+  .table-row {
+    display: flex;
+    width: 100%;
+    padding: ($half-spacing-unit * 1.5) 0;
+  
+    &:nth-of-type(odd) {
+      background: $color-form-highlight;
+    }
+  }
+  .table-data1,
+  .header__item {
+    flex: 1 1 20%;
+    text-align: center;
+    width: 250px;
+    color: #FFFFFF;
+     border: 0px none;
+  }  
+  .table-data,
+  .header__item {
+    flex: 1 1 20%;
+    text-align: center;
+    width: 250px;
+    color: #FFFFFF;
+    background: #000000;
+     border: 0px none;
+  }
+  
+  .filter__link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding-left: $base-spacing-unit;
+    padding-right: $base-spacing-unit;
+  }
+  .button3 {
+    display: block;
+    padding: 0.3em 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+    width: 70%;
+  }
+  .SeeMore2 {
+    display: block;
+    padding: 0.3em 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #FFA500;
+    text-align: center;
+    transition: all 0.2s;
+    width: 70%;
+  }
+  .button3:hover {
+    background-color: #4095c6;
+  }
+  .SeeMore2:hover{
+    background-color: #FFBF00;
+  }
+  .Totals {
+    font-weight:bold;
+    font-size: 100%;
+    text-align: center;
+  }
+  .Titles {
+    font-weight:bold;
+    font-size: 110%;
+    text-align: center;
+    border-top: #000;
+    border-width: thin;
+    border: solid;
+  }
+  @media all and (max-width:30em) {
+    .button3 {
+      display: block;
+      margin: 0.2em auto;
+    }
+  }
